@@ -1,9 +1,53 @@
 /* family=Lato:wght@100;300;700 
 family=Playfair Display:wght@400;700;800;*/
+:root{
+    --heading-color: #48494e; 
+    --secondary-color: #79B4B7;
+    --background-color: #FEFBF3;
+}
 body {
     font-family: 'Lato',sans-serif;
 }
 h1{
     font-family: 'Playfair Display', sans-serif;
     font-weight: 800;
+    font-size: 90px;
+    color: var(--heading-color);
+}
+h2{
+    font-size: ;
+}
+.main-text-presentation {
+    background-color: var(--background-color);
+    max-width: 600px;
+    display: block;
+    margin:0 auto;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 15px;
+
+}
+.homepage-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+.btn-secondary{
+    font-weight: 700;
+    background-color: var(--secondary-color);
+    padding: 15px;
+    border: var(--secondary-color);
+}
+.btn-secondary:hover{
+     background-color: var(--heading-color);
+     border: var(--heading-color);
+}
+.navbar{
+    background-color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar-nav{
+    justify-content: left;
 }

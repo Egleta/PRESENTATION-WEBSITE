@@ -26,7 +26,7 @@ h2 {
 }
 .main-container {
     max-width: 1200px;
-    margin: 20px auto 0;
+    margin: 20px auto 0px;
 }
 .main-text-presentation {
     background-color: var(--background-color);
@@ -57,14 +57,27 @@ h2 {
     font-size: 25px;
     padding: 12px;
 }
+.fa-linkedin {
+    vertical-align: middle;
+}
 .footer {
     max-width: 1500px;
-    background-color: var(--secondary-color);
-    font-size: 20px;
-    font-weight: 700;
-    color: white;
+    background-color: #79b4b754;
     margin: 0 auto;
-    padding: 27px;
+    padding: 26px 28px 60px;
+    color: var(--heading-color);
+    font-size: 20px;
+    line-height: 15px;
+}
+.footer a {
+    color: var(--heading-color);
+}
+
+.footer-small-text {
+    font-weight: 300;
+}
+.footer-bold-text {
+    font-weight: 700;
 }
 
 @media (min-width: 992px) {

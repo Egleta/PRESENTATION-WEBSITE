@@ -1,54 +1,80 @@
 /* family=Lato:wght@100;300;700 
 family=Playfair Display:wght@400;700;800;*/
-:root{
-    --heading-color: #48494e; 
-    --secondary-color: #79B4B7;
-    --background-color: #FEFBF3;
+:root {
+    --heading-color: #48494e;
+    --secondary-color: #79b4b7;
+    --background-color: #fefbf3;
 }
 body {
-    font-family: 'Lato',sans-serif;
+    font-family: "Lato", sans-serif;
 }
-h1{
-    font-family: 'Playfair Display', sans-serif;
+h1 {
+    font-family: "Playfair Display", sans-serif;
     font-weight: 800;
     font-size: 90px;
     color: var(--heading-color);
 }
-h2{
+h2 {
     font-size: ;
+}
+.navbar {
+    background-color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.main-container {
+    max-width: 1200px;
+    margin: 20px auto 0;
 }
 .main-text-presentation {
     background-color: var(--background-color);
-    max-width: 600px;
-    display: block;
-    margin:0 auto;
-    margin-top: 150px;
     margin-bottom: 50px;
     text-align: center;
     padding: 15px;
-
 }
-.homepage-button{
+.text-and-button {
+    margin-top: 100px;
+}
+.homepage-button {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
 }
-.btn-secondary{
+.btn-secondary {
     font-weight: 700;
     background-color: var(--secondary-color);
     padding: 15px;
     border: var(--secondary-color);
 }
-.btn-secondary:hover{
-     background-color: var(--heading-color);
-     border: var(--heading-color);
+.btn-secondary:hover {
+    background-color: var(--heading-color);
+    border: var(--heading-color);
 }
-.navbar{
+
+.fa-tree {
+    font-size: 25px;
+    padding: 12px;
+}
+.footer {
+    max-width: 1500px;
     background-color: var(--secondary-color);
     font-size: 20px;
     font-weight: 700;
+    color: white;
+    margin: 0 auto;
+    padding: 27px;
 }
-.fa-tree{
-    font-size: 25px;
-    padding: 12px;
+
+@media (min-width: 992px) {
+    .text-and-button,
+    .homepage-image {
+        width: 50%;
+    }
+}
+
+/* Bootstrap overrires */
+.fixed-top {
+    position: sticky;
 }

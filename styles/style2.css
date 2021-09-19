@@ -2,9 +2,9 @@
 family=Playfair Display:wght@400;700;800;*/
 :root {
     --heading-color: #48494e;
-    --secondary-color: #79b4b7;
+    --secondary-color: #ba7967;
     --background-color: #fefbf3;
-    --footer-background: #79b4b754;
+    --footer-background: #ffdecf;
 }
 body {
     font-family: "Lato", sans-serif;
@@ -18,6 +18,19 @@ h1 {
 h2 {
     font-size: 32px;
 }
+.heading-of-project {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 15px;
+}
+.visit-the-project-link {
+    color: var(--heading-color);
+    font-weight: 900;
+    font-size: 35px;
+}
+.visit-the-project-link:hover {
+    color: var(--heading-color);
+}
 .navbar {
     background-color: var(--secondary-color);
     font-size: 20px;
@@ -25,15 +38,35 @@ h2 {
     max-width: 1500px;
     margin: 0 auto;
 }
-.main-container {
+.main-container-projects {
     max-width: 1200px;
     margin: 20px auto 0px;
 }
+
 .main-text-presentation {
+    width: 70%;
     background-color: var(--background-color);
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
     margin-bottom: 50px;
     text-align: center;
     padding: 15px;
+}
+.first-project-container {
+    background-color: #e2dcd571;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.second-project-container {
+    background-color: var(--background-color);
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.text-weather-app,
+#img-weather-app {
+    width: 70%;
+    margin: 0 auto;
 }
 .text-and-button {
     margin-top: 100px;
@@ -41,7 +74,7 @@ h2 {
 .homepage-button {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .btn-secondary {
     font-weight: 700;
@@ -90,7 +123,7 @@ h2 {
     }
 }
 @media (max-width: 995px) {
-    .main-container img {
+    .main-container-projects img {
         width: 50%;
         margin-left: auto;
         margin-right: auto;
@@ -106,14 +139,26 @@ h2 {
         margin-right: auto;
         display: block;
     }
-    .main-container h1 {
+    .main-container-projects h1 {
         font-size: 60px;
     }
-    .main-container h2 {
+    .main-container-projects h2 {
         font-size: 23px;
+    }
+    .main-text-presentation {
+        margin-top: 20px;
+        margin-bottom: 15px;
     }
     .footer {
         font-size: 15px;
+    }
+    #img-west-coast2,
+    #img-weather-app,
+    .text-weather-app {
+        width: 100%;
+    }
+    .visit-the-project-link {
+        font-size: 25px;
     }
 }
 

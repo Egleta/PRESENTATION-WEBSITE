@@ -71,6 +71,7 @@ h2 {
 }
 .footer a {
     color: var(--heading-color);
+    text-decoration: none;
 }
 
 .footer-small-text {
@@ -78,6 +79,7 @@ h2 {
 }
 .footer-bold-text {
     font-weight: 700;
+    display: inline-block;
 }
 
 @media (min-width: 992px) {

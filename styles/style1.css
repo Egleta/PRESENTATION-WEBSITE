@@ -111,7 +111,7 @@ h2 {
 
 @media (max-width: 995px) {
     .main-container img {
-        width: 50%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
         display: block;
@@ -199,6 +199,7 @@ h2 {
     .projects .main-text-presentation {
         margin-top: 20px;
         margin-bottom: 15px;
+        width: 80%;
     }
 }
 
@@ -221,4 +222,19 @@ h2 {
 }
 .cv-language {
     display: block;
+}
+@media (max-width: 995px) {
+    .about .main-text-presentation {
+        width: 80%;
+        margin-bottom: 5px;
+    }
+    .about .main-text-presentation h2 {
+        font-size: 23px;
+    }
+    #cv-body {
+        margin-bottom: 50px;
+    }
+    .about .btn {
+        margin-bottom: 50px;
+    }
 }

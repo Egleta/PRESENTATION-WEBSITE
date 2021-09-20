@@ -201,3 +201,24 @@ h2 {
         margin-bottom: 15px;
     }
 }
+
+/* About page */
+.about .main-text-presentation {
+    width: 60%;
+    display: block;
+    margin: 50px auto;
+}
+.about .heading-of-project {
+    text-align: center;
+    margin: 20px 0 0;
+}
+#cv-body {
+    width: 80%;
+    margin: 0 auto 100px;
+}
+#cv-body .row {
+    padding: 12px;
+}
+.cv-language {
+    display: block;
+}

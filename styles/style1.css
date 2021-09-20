@@ -13,6 +13,12 @@ family=Playfair Display:wght@400;700;800;*/
     --background-color: #fefbf3;
     --footer-background: #ffdecf;
 }
+.about {
+    --heading-color: #48494e;
+    --secondary-color: #e2434b;
+    --background-color: #fefbf3;
+    --footer-background: #e78c90;
+}
 
 body {
     font-family: "Lato", sans-serif;
@@ -142,6 +148,7 @@ h2 {
     font-size: 40px;
     font-weight: 700;
     padding: 15px;
+    color: var(--heading-color);
 }
 .visit-the-project-link {
     color: var(--heading-color);

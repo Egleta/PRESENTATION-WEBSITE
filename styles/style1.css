@@ -15,9 +15,15 @@ family=Playfair Display:wght@400;700;800;*/
 }
 .about {
     --heading-color: #48494e;
-    --secondary-color: #e2434b;
+    --secondary-color: #734046;
     --background-color: #fefbf3;
-    --footer-background: #e78c90;
+    --footer-background: #ffd5cd;
+}
+.contact {
+    --heading-color: #48494e;
+    --secondary-color: #22577a;
+    --background-color: #fefbf3;
+    --footer-background: #ccf2f4;
 }
 
 body {
@@ -127,7 +133,7 @@ h2 {
         display: block;
     }
     .main-container h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
     .main-container h2 {
         font-size: 23px;
@@ -236,5 +242,38 @@ h2 {
     }
     .about .btn {
         margin-bottom: 50px;
+    }
+}
+/* Contact */
+.contact .main-text-presentation {
+    width: 60%;
+    display: block;
+    margin: 50px auto 0;
+}
+.contact h1 {
+    font-size: 50px;
+}
+#contact-image {
+    width: 100%;
+}
+.contact-form {
+    margin-top: 100px;
+}
+
+@media (min-width: 992px) {
+    .contact .text-and-image,
+    .contact .contact-form {
+        width: 50%;
+    }
+}
+@media (max-width: 995px) {
+    .contact-form {
+        margin-top: 20px;
+    }
+    .contact h1 {
+        font-size: 40px;
+    }
+    .contact .main-text-presentation {
+        width: 80%;
     }
 }

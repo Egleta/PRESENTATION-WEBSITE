@@ -299,10 +299,13 @@ h2 {
     }
 }
 /* Certificates */
-.content {
-    max-width: 65%;
-}
 
+img.certificate {
+    width: 100%;
+}
+img.content {
+    width: 55%;
+}
 
 .headingAndContent {
     text-align: center;
@@ -312,4 +315,12 @@ h2 {
     font-size: 30px;
     color: #48494e;
     margin-bottom: 18px;
+}
+.certificateLink img {
+    transition: transform 0.3s;
+}
+.certificateLink img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    opacity: 0.9;
 }

@@ -25,6 +25,12 @@ family=Playfair Display:wght@400;700;800;*/
     --background-color: #fefbf3;
     --footer-background: #ccf2f4;
 }
+.certificates {
+    --heading-color: #48494e;
+    --secondary-color: #2c5d63;
+    --background-color: #fefbf3;
+    --footer-background: #b8c775;
+}
 
 body {
     font-family: "Lato", sans-serif;
@@ -143,7 +149,7 @@ h2 {
     }
 }
 
-/* Bootstrap overrires */
+/* Bootstrap overrites */
 .fixed-top {
     position: sticky;
 }
@@ -162,7 +168,8 @@ h2 {
     font-size: 35px;
 }
 .visit-the-project-link:hover {
-    color: var(--heading-color);
+    color: #727171;
+    transition: 0.5s ease-out;
 }
 
 .projects .main-text-presentation {
@@ -276,4 +283,29 @@ h2 {
     .contact .main-text-presentation {
         width: 80%;
     }
+}
+/* Certificates */
+.content {
+    max-width: 65%;
+}
+
+.certificateWithContent {
+    display: flex;
+    align-items: center;
+}
+.certificateWithContent > img {
+    width: 54% !important;
+}
+.certificateWithContent > div {
+    width: 46% !important;
+}
+
+.headingAndContent {
+    text-align: center;
+}
+.certificates h2{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #48494e;
+    margin-bottom: 18px;
 }

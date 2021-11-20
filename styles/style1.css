@@ -303,16 +303,6 @@ h2 {
     max-width: 65%;
 }
 
-.certificateWithContent {
-    display: flex;
-    align-items: center;
-}
-.certificateWithContent > img {
-    width: 54% !important;
-}
-.certificateWithContent > div {
-    width: 46% !important;
-}
 
 .headingAndContent {
     text-align: center;
